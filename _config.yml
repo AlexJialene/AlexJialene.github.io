@@ -1,0 +1,63 @@
+title: lamkeizyi's blog
+url: http://blog.keizyi.me
+baseurl: ''
+cdnurl: ''
+description: >
+  lamkeizyi的个人博客。
+
+permalink: /:year/:month/:title.html
+
+image: /public/images/mountains.jpg
+color: '#dc322f'
+google_analytics: 
+baidu_analytics: 
+disqus: blog-lamkeizyi-me
+
+markdown: kramdown
+highlighter: rouge
+paginate: 12
+paginate_path: "/page/:num"
+
+# 作者信息
+author:
+  name: lamkeizyi
+  email: alexdennis.lam@qq.com
+  photo: /public/images/avatar.jpeg
+
+# 社交信息
+socials:
+  - title: Github
+    icon: github
+    url: https://github.com/AlexJialene
+  - title: Twitter
+    icon: twitter
+    url: #
+  - title: Youtube
+    icon: youtube
+    url: #
+  - title: Telegram Group
+    icon: telegram
+    url: #
+
+# 友链
+links:
+  
+
+# html 压缩
+compress_html:
+  clippings: all
+  comments: ["<!--", "-->"]
+  endings: all
+  startings: [html, head, body]
+
+# sass 解析
+sass:
+  sass_dir: public/css
+  style: compressed
+
+# 插件
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
