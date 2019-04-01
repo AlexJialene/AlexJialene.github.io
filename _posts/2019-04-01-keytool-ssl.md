@@ -42,6 +42,17 @@ server:
     enabled: true
     key-store-password: 123456
     key-store-type: PKCS12
-    
+    ciphers: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,
+			 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,
+			 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384,
+			 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,
+			 TLS_ECDHE_RSA_WITH_RC4_128_SHA,
+			 TLS_RSA_WITH_AES_128_CBC_SHA256,
+			 TLS_RSA_WITH_AES_128_CBC_SHA,
+			 TLS_RSA_WITH_AES_256_CBC_SHA256,
+			 TLS_RSA_WITH_AES_256_CBC_SHA,
+			 SSL_RSA_WITH_RC4_128_SHA
 
 ```
+
+上面配置是springboot application.yml配置。注意'server.ssl.ciphers' 参数，配置允许加密套件。
