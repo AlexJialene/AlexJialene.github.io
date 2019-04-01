@@ -55,4 +55,6 @@ server:
 
 ```
 
-上面配置是springboot application.yml配置。注意'server.ssl.ciphers' 参数，配置允许加密套件。
+上面配置是springboot application.yml配置。注意`server.ssl.ciphers` 参数，配置允许加密套件。
+
+参考链接: [https://www.jianshu.com/p/2b91ca9e9564](https://www.jianshu.com/p/2b91ca9e9564)
