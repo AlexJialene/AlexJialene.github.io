@@ -10,7 +10,7 @@ order: 5
 ![{{ site.author.name }}]({{ site.author.photo | prepend: site.cdnurl }}){:.me}
 {% endif %}
 
-90后的一个懒癌骚年，纯种软工Java。博客比较少更新；只有在想起来 && 有时间的时候可能会写一篇。然后好像也没什么其他说的。
+懒癌满分，就这样。
 
 ## 联系
 * alexdennis.lam@qq.com
@@ -28,7 +28,6 @@ order: 5
 ## 其他
 
 我的博客使用 Jekyll 搭建，感谢 [biezhi](https://github.com/biezhi/blog){:target="_blank"} 的技术支持。
-另外若发现本站有任何侵犯您利益的内容，请及时邮件或留言联系，我会第一时间删除所有相关内容。
 
 <!-- Add Disqus Comments -->
 {% if site.disqus %}
