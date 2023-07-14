@@ -12,7 +12,7 @@ order: 4
 {% for item in site.links %}
 <li>
     <p>
-        <a href="{{ item.url }}" target="_blank" title="{{ item.title }}">
+        <a href="{{ item.url }}" target="_blank" title="{{ site.title }}">
         {{ item.title }}
         </a>
     </p>
