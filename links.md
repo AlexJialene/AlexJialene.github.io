@@ -6,7 +6,7 @@ image: /public/images/links.jpeg
 order: 4
 ---
 
-> God made relatives. Thank God we can choose our friends.
+> 待取霜风送月来~
 
 <ul class="links">
 {% for item in site.links %}
@@ -19,5 +19,3 @@ order: 4
 </li>
 {% endfor %}
 </ul>
-
-经常更新博文可交换友链接，不定期对无法访问的网址进行清理，请保证自己的链接长期有效。
